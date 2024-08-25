@@ -1,4 +1,4 @@
-from homework_2.src.Figure import Figure
+from homework_2_and_3.src.Figure import Figure
 
 
 class Rectangle(Figure):
