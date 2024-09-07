@@ -1,0 +1,163 @@
+{
+	"definitions": {},
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://example.com/object1725741937.json",
+	"title": "Root",
+	"type": "object",
+	"required": [
+		"id",
+		"name",
+		"username",
+		"email",
+		"address",
+		"phone",
+		"website",
+		"company"
+	],
+	"properties": {
+		"id": {
+			"$id": "#root/id",
+			"title": "Id",
+			"type": "integer",
+			"default": 0
+		},
+		"name": {
+			"$id": "#root/name",
+			"title": "Name",
+			"type": "string",
+			"default": "",
+			"pattern": "^.*$"
+		},
+		"username": {
+			"$id": "#root/username",
+			"title": "Username",
+			"type": "string",
+			"default": "",
+			"pattern": "^.*$"
+		},
+		"email": {
+			"$id": "#root/email",
+			"title": "Email",
+			"type": "string",
+			"default": "",
+			"pattern": "^.*$"
+		},
+		"address": {
+			"$id": "#root/address",
+			"title": "Address",
+			"type": "object",
+			"required": [
+				"street",
+				"suite",
+				"city",
+				"zipcode",
+				"geo"
+			],
+			"properties": {
+				"street": {
+					"$id": "#root/address/street",
+					"title": "Street",
+					"type": "string",
+					"default": "",
+					"pattern": "^.*$"
+				},
+				"suite": {
+					"$id": "#root/address/suite",
+					"title": "Suite",
+					"type": "string",
+					"default": "",
+					"pattern": "^.*$"
+				},
+				"city": {
+					"$id": "#root/address/city",
+					"title": "City",
+					"type": "string",
+					"default": "",
+					"pattern": "^.*$"
+				},
+				"zipcode": {
+					"$id": "#root/address/zipcode",
+					"title": "Zipcode",
+					"type": "string",
+					"default": "",
+					"pattern": "^.*$"
+				},
+				"geo": {
+					"$id": "#root/address/geo",
+					"title": "Geo",
+					"type": "object",
+					"required": [
+						"lat",
+						"lng"
+					],
+					"properties": {
+						"lat": {
+							"$id": "#root/address/geo/lat",
+							"title": "Lat",
+							"type": "string",
+							"default": "",
+							"pattern": "^.*$"
+						},
+						"lng": {
+							"$id": "#root/address/geo/lng",
+							"title": "Lng",
+							"type": "string",
+							"default": "",
+							"pattern": "^.*$"
+						}
+					}
+				}
+
+			}
+		}
+,
+		"phone": {
+			"$id": "#root/phone",
+			"title": "Phone",
+			"type": "string",
+			"default": "",
+			"pattern": "^.*$"
+		},
+		"website": {
+			"$id": "#root/website",
+			"title": "Website",
+			"type": "string",
+			"default": "",
+			"pattern": "^.*$"
+		},
+		"company": {
+			"$id": "#root/company",
+			"title": "Company",
+			"type": "object",
+			"required": [
+				"name",
+				"catchPhrase",
+				"bs"
+			],
+			"properties": {
+				"name": {
+					"$id": "#root/company/name",
+					"title": "Name",
+					"type": "string",
+					"default": "",
+					"pattern": "^.*$"
+				},
+				"catchPhrase": {
+					"$id": "#root/company/catchPhrase",
+					"title": "Catchphrase",
+					"type": "string",
+					"default": "",
+					"pattern": "^.*$"
+				},
+				"bs": {
+					"$id": "#root/company/bs",
+					"title": "Bs",
+					"type": "string",
+					"default": "",
+					"pattern": "^.*$"
+				}
+			}
+		}
+
+	}
+}

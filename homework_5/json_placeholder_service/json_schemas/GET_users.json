@@ -1,0 +1,169 @@
+{
+	"definitions": {},
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://example.com/object1725740185.json",
+	"title": "Root",
+	"type": "array",
+	"default": [],
+	"items":{
+		"$id": "#root/items",
+		"title": "Items",
+		"type": "object",
+		"required": [
+			"id",
+			"name",
+			"username",
+			"email",
+			"address",
+			"phone",
+			"website",
+			"company"
+		],
+		"properties": {
+			"id": {
+				"$id": "#root/items/id",
+				"title": "Id",
+				"type": "integer",
+				"default": 0
+			},
+			"name": {
+				"$id": "#root/items/name",
+				"title": "Name",
+				"type": "string",
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"username": {
+				"$id": "#root/items/username",
+				"title": "Username",
+				"type": "string",
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"email": {
+				"$id": "#root/items/email",
+				"title": "Email",
+				"type": "string",
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"address": {
+				"$id": "#root/items/address",
+				"title": "Address",
+				"type": "object",
+				"required": [
+					"street",
+					"suite",
+					"city",
+					"zipcode",
+					"geo"
+				],
+				"properties": {
+					"street": {
+						"$id": "#root/items/address/street",
+						"title": "Street",
+						"type": "string",
+						"default": "",
+						"pattern": "^.*$"
+					},
+					"suite": {
+						"$id": "#root/items/address/suite",
+						"title": "Suite",
+						"type": "string",
+						"default": "",
+						"pattern": "^.*$"
+					},
+					"city": {
+						"$id": "#root/items/address/city",
+						"title": "City",
+						"type": "string",
+						"default": "",
+						"pattern": "^.*$"
+					},
+					"zipcode": {
+						"$id": "#root/items/address/zipcode",
+						"title": "Zipcode",
+						"type": "string",
+						"default": "",
+						"pattern": "^.*$"
+					},
+					"geo": {
+						"$id": "#root/items/address/geo",
+						"title": "Geo",
+						"type": "object",
+						"required": [
+							"lat",
+							"lng"
+						],
+						"properties": {
+							"lat": {
+								"$id": "#root/items/address/geo/lat",
+								"title": "Lat",
+								"type": "string",
+								"default": "",
+								"pattern": "^.*$"
+							},
+							"lng": {
+								"$id": "#root/items/address/geo/lng",
+								"title": "Lng",
+								"type": "string",
+								"default": "",
+								"pattern": "^.*$"
+							}
+						}
+					}
+
+				}
+			}
+,
+			"phone": {
+				"$id": "#root/items/phone",
+				"title": "Phone",
+				"type": "string",
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"website": {
+				"$id": "#root/items/website",
+				"title": "Website",
+				"type": "string",
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"company": {
+				"$id": "#root/items/company",
+				"title": "Company",
+				"type": "object",
+				"required": [
+					"name",
+					"catchPhrase",
+					"bs"
+				],
+				"properties": {
+					"name": {
+						"$id": "#root/items/company/name",
+						"title": "Name",
+						"type": "string",
+						"default": "",
+						"pattern": "^.*$"
+					},
+					"catchPhrase": {
+						"$id": "#root/items/company/catchPhrase",
+						"title": "Catchphrase",
+						"type": "string",
+						"default": "",
+						"pattern": "^.*$"
+					},
+					"bs": {
+						"$id": "#root/items/company/bs",
+						"title": "Bs",
+						"type": "string",
+						"default": "",
+						"pattern": "^.*$"
+					}
+				}
+			}
+
+		}
+	}
+}

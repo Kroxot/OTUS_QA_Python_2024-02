@@ -1,0 +1,55 @@
+{
+	"definitions": {},
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://example.com/object1725742673.json",
+	"title": "Root",
+	"type": "array",
+	"default": [],
+	"items":{
+		"$id": "#root/items",
+		"title": "Items",
+		"type": "object",
+		"required": [
+			"postId",
+			"id",
+			"name",
+			"email",
+			"body"
+		],
+		"properties": {
+			"postId": {
+				"$id": "#root/items/postId",
+				"title": "Postid",
+				"type": "integer",
+				"default": 0
+			},
+			"id": {
+				"$id": "#root/items/id",
+				"title": "Id",
+				"type": "integer",
+				"default": 0
+			},
+			"name": {
+				"$id": "#root/items/name",
+				"title": "Name",
+				"type": "string",
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"email": {
+				"$id": "#root/items/email",
+				"title": "Email",
+				"type": "string",
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"body": {
+				"$id": "#root/items/body",
+				"title": "Body",
+				"type": "string",
+				"default": "",
+				"pattern": "^(.+\\n)*(.+)$"
+			}
+		}
+	}
+}
