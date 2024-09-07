@@ -1,0 +1,143 @@
+{
+	"definitions": {},
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://example.com/object1725729165.json",
+	"title": "Root",
+	"type": "array",
+	"default": [],
+	"items":{
+		"$id": "#root/items",
+		"title": "Items",
+		"type": "object",
+		"required": [
+			"id",
+			"name",
+			"brewery_type",
+			"address_1",
+			"address_2",
+			"address_3",
+			"city",
+			"state_province",
+			"postal_code",
+			"country",
+			"longitude",
+			"latitude",
+			"phone",
+			"website_url",
+			"state",
+			"street"
+		],
+		"properties": {
+			"id": {
+				"$id": "#root/items/id",
+				"title": "Id",
+				"type": "string",
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"name": {
+				"$id": "#root/items/name",
+				"title": "Name",
+				"type": "string",
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"brewery_type": {
+				"$id": "#root/items/brewery_type",
+				"title": "Brewery_type",
+				"type": "string",
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"address_1": {
+				"$id": "#root/items/address_1",
+				"title": "Address_1",
+				"type": ["string", "null"],
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"address_2": {
+				"$id": "#root/items/address_2",
+				"title": "Address_2",
+				"type": ["string", "null"],
+				"default": null
+			},
+			"address_3": {
+				"$id": "#root/items/address_3",
+				"title": "Address_3",
+				"type": ["string", "null"],
+				"default": null
+			},
+			"city": {
+				"$id": "#root/items/city",
+				"title": "City",
+				"type": "string",
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"state_province": {
+				"$id": "#root/items/state_province",
+				"title": "State_province",
+				"type": "string",
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"postal_code": {
+				"$id": "#root/items/postal_code",
+				"title": "Postal_code",
+				"type": "string",
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"country": {
+				"$id": "#root/items/country",
+				"title": "Country",
+				"type": "string",
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"longitude": {
+				"$id": "#root/items/longitude",
+				"title": "Longitude",
+				"type": ["string", "null"],
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"latitude": {
+				"$id": "#root/items/latitude",
+				"title": "Latitude",
+				"type": ["string", "null"],
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"phone": {
+				"$id": "#root/items/phone",
+				"title": "Phone",
+				"type": ["string", "null"],
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"website_url": {
+				"$id": "#root/items/website_url",
+				"title": "Website_url",
+				"type": ["string", "null"],
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"state": {
+				"$id": "#root/items/state",
+				"title": "State",
+				"type": "string",
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"street": {
+				"$id": "#root/items/street",
+				"title": "Street",
+				"type": ["string", "null"],
+				"default": "",
+				"pattern": "^.*$"
+			}
+		}
+	}
+}

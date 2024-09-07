@@ -1,0 +1,1051 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1725726065.json",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "message",
+    "status"
+  ],
+  "properties": {
+    "message": {
+      "$id": "#root/message",
+      "title": "Message",
+      "type": "object",
+      "required": [
+        "affenpinscher",
+        "african",
+        "airedale",
+        "akita",
+        "appenzeller",
+        "australian",
+        "bakharwal",
+        "basenji",
+        "beagle",
+        "bluetick",
+        "borzoi",
+        "bouvier",
+        "boxer",
+        "brabancon",
+        "briard",
+        "buhund",
+        "bulldog",
+        "bullterrier",
+        "cattledog",
+        "cavapoo",
+        "chihuahua",
+        "chippiparai",
+        "chow",
+        "clumber",
+        "cockapoo",
+        "collie",
+        "coonhound",
+        "corgi",
+        "cotondetulear",
+        "dachshund",
+        "dalmatian",
+        "dane",
+        "danish",
+        "deerhound",
+        "dhole",
+        "dingo",
+        "doberman",
+        "elkhound",
+        "entlebucher",
+        "eskimo",
+        "finnish",
+        "frise",
+        "gaddi",
+        "germanshepherd",
+        "greyhound",
+        "groenendael",
+        "havanese",
+        "hound",
+        "husky",
+        "keeshond",
+        "kelpie",
+        "kombai",
+        "komondor",
+        "kuvasz",
+        "labradoodle",
+        "labrador",
+        "leonberg",
+        "lhasa",
+        "malamute",
+        "malinois",
+        "maltese",
+        "mastiff",
+        "mexicanhairless",
+        "mix",
+        "mountain",
+        "mudhol",
+        "newfoundland",
+        "otterhound",
+        "ovcharka",
+        "papillon",
+        "pariah",
+        "pekinese",
+        "pembroke",
+        "pinscher",
+        "pitbull",
+        "pointer",
+        "pomeranian",
+        "poodle",
+        "pug",
+        "puggle",
+        "pyrenees",
+        "rajapalayam",
+        "redbone",
+        "retriever",
+        "ridgeback",
+        "rottweiler",
+        "saluki",
+        "samoyed",
+        "schipperke",
+        "schnauzer",
+        "segugio",
+        "setter",
+        "sharpei",
+        "sheepdog",
+        "shiba",
+        "shihtzu",
+        "spaniel",
+        "spitz",
+        "springer",
+        "stbernard",
+        "terrier",
+        "tervuren",
+        "vizsla",
+        "waterdog",
+        "weimaraner",
+        "whippet",
+        "wolfhound"
+      ],
+      "properties": {
+        "affenpinscher": {
+          "$id": "#root/message/affenpinscher",
+          "title": "Affenpinscher",
+          "type": "array",
+          "default": []
+        },
+        "african": {
+          "$id": "#root/message/african",
+          "title": "African",
+          "type": "array",
+          "default": []
+        },
+        "airedale": {
+          "$id": "#root/message/airedale",
+          "title": "Airedale",
+          "type": "array",
+          "default": []
+        },
+        "akita": {
+          "$id": "#root/message/akita",
+          "title": "Akita",
+          "type": "array",
+          "default": []
+        },
+        "appenzeller": {
+          "$id": "#root/message/appenzeller",
+          "title": "Appenzeller",
+          "type": "array",
+          "default": []
+        },
+        "australian": {
+          "$id": "#root/message/australian",
+          "title": "Australian",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/australian/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "bakharwal": {
+          "$id": "#root/message/bakharwal",
+          "title": "Bakharwal",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/bakharwal/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "basenji": {
+          "$id": "#root/message/basenji",
+          "title": "Basenji",
+          "type": "array",
+          "default": []
+        },
+        "beagle": {
+          "$id": "#root/message/beagle",
+          "title": "Beagle",
+          "type": "array",
+          "default": []
+        },
+        "bluetick": {
+          "$id": "#root/message/bluetick",
+          "title": "Bluetick",
+          "type": "array",
+          "default": []
+        },
+        "borzoi": {
+          "$id": "#root/message/borzoi",
+          "title": "Borzoi",
+          "type": "array",
+          "default": []
+        },
+        "bouvier": {
+          "$id": "#root/message/bouvier",
+          "title": "Bouvier",
+          "type": "array",
+          "default": []
+        },
+        "boxer": {
+          "$id": "#root/message/boxer",
+          "title": "Boxer",
+          "type": "array",
+          "default": []
+        },
+        "brabancon": {
+          "$id": "#root/message/brabancon",
+          "title": "Brabancon",
+          "type": "array",
+          "default": []
+        },
+        "briard": {
+          "$id": "#root/message/briard",
+          "title": "Briard",
+          "type": "array",
+          "default": []
+        },
+        "buhund": {
+          "$id": "#root/message/buhund",
+          "title": "Buhund",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/buhund/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "bulldog": {
+          "$id": "#root/message/bulldog",
+          "title": "Bulldog",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/bulldog/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "bullterrier": {
+          "$id": "#root/message/bullterrier",
+          "title": "Bullterrier",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/bullterrier/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "cattledog": {
+          "$id": "#root/message/cattledog",
+          "title": "Cattledog",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/cattledog/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "cavapoo": {
+          "$id": "#root/message/cavapoo",
+          "title": "Cavapoo",
+          "type": "array",
+          "default": []
+        },
+        "chihuahua": {
+          "$id": "#root/message/chihuahua",
+          "title": "Chihuahua",
+          "type": "array",
+          "default": []
+        },
+        "chippiparai": {
+          "$id": "#root/message/chippiparai",
+          "title": "Chippiparai",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/chippiparai/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "chow": {
+          "$id": "#root/message/chow",
+          "title": "Chow",
+          "type": "array",
+          "default": []
+        },
+        "clumber": {
+          "$id": "#root/message/clumber",
+          "title": "Clumber",
+          "type": "array",
+          "default": []
+        },
+        "cockapoo": {
+          "$id": "#root/message/cockapoo",
+          "title": "Cockapoo",
+          "type": "array",
+          "default": []
+        },
+        "collie": {
+          "$id": "#root/message/collie",
+          "title": "Collie",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/collie/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "coonhound": {
+          "$id": "#root/message/coonhound",
+          "title": "Coonhound",
+          "type": "array",
+          "default": []
+        },
+        "corgi": {
+          "$id": "#root/message/corgi",
+          "title": "Corgi",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/corgi/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "cotondetulear": {
+          "$id": "#root/message/cotondetulear",
+          "title": "Cotondetulear",
+          "type": "array",
+          "default": []
+        },
+        "dachshund": {
+          "$id": "#root/message/dachshund",
+          "title": "Dachshund",
+          "type": "array",
+          "default": []
+        },
+        "dalmatian": {
+          "$id": "#root/message/dalmatian",
+          "title": "Dalmatian",
+          "type": "array",
+          "default": []
+        },
+        "dane": {
+          "$id": "#root/message/dane",
+          "title": "Dane",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/dane/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "danish": {
+          "$id": "#root/message/danish",
+          "title": "Danish",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/danish/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "deerhound": {
+          "$id": "#root/message/deerhound",
+          "title": "Deerhound",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/deerhound/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "dhole": {
+          "$id": "#root/message/dhole",
+          "title": "Dhole",
+          "type": "array",
+          "default": []
+        },
+        "dingo": {
+          "$id": "#root/message/dingo",
+          "title": "Dingo",
+          "type": "array",
+          "default": []
+        },
+        "doberman": {
+          "$id": "#root/message/doberman",
+          "title": "Doberman",
+          "type": "array",
+          "default": []
+        },
+        "elkhound": {
+          "$id": "#root/message/elkhound",
+          "title": "Elkhound",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/elkhound/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "entlebucher": {
+          "$id": "#root/message/entlebucher",
+          "title": "Entlebucher",
+          "type": "array",
+          "default": []
+        },
+        "eskimo": {
+          "$id": "#root/message/eskimo",
+          "title": "Eskimo",
+          "type": "array",
+          "default": []
+        },
+        "finnish": {
+          "$id": "#root/message/finnish",
+          "title": "Finnish",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/finnish/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "frise": {
+          "$id": "#root/message/frise",
+          "title": "Frise",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/frise/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "gaddi": {
+          "$id": "#root/message/gaddi",
+          "title": "Gaddi",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/gaddi/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "germanshepherd": {
+          "$id": "#root/message/germanshepherd",
+          "title": "Germanshepherd",
+          "type": "array",
+          "default": []
+        },
+        "greyhound": {
+          "$id": "#root/message/greyhound",
+          "title": "Greyhound",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/greyhound/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "groenendael": {
+          "$id": "#root/message/groenendael",
+          "title": "Groenendael",
+          "type": "array",
+          "default": []
+        },
+        "havanese": {
+          "$id": "#root/message/havanese",
+          "title": "Havanese",
+          "type": "array",
+          "default": []
+        },
+        "hound": {
+          "$id": "#root/message/hound",
+          "title": "Hound",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/hound/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "husky": {
+          "$id": "#root/message/husky",
+          "title": "Husky",
+          "type": "array",
+          "default": []
+        },
+        "keeshond": {
+          "$id": "#root/message/keeshond",
+          "title": "Keeshond",
+          "type": "array",
+          "default": []
+        },
+        "kelpie": {
+          "$id": "#root/message/kelpie",
+          "title": "Kelpie",
+          "type": "array",
+          "default": []
+        },
+        "kombai": {
+          "$id": "#root/message/kombai",
+          "title": "Kombai",
+          "type": "array",
+          "default": []
+        },
+        "komondor": {
+          "$id": "#root/message/komondor",
+          "title": "Komondor",
+          "type": "array",
+          "default": []
+        },
+        "kuvasz": {
+          "$id": "#root/message/kuvasz",
+          "title": "Kuvasz",
+          "type": "array",
+          "default": []
+        },
+        "labradoodle": {
+          "$id": "#root/message/labradoodle",
+          "title": "Labradoodle",
+          "type": "array",
+          "default": []
+        },
+        "labrador": {
+          "$id": "#root/message/labrador",
+          "title": "Labrador",
+          "type": "array",
+          "default": []
+        },
+        "leonberg": {
+          "$id": "#root/message/leonberg",
+          "title": "Leonberg",
+          "type": "array",
+          "default": []
+        },
+        "lhasa": {
+          "$id": "#root/message/lhasa",
+          "title": "Lhasa",
+          "type": "array",
+          "default": []
+        },
+        "malamute": {
+          "$id": "#root/message/malamute",
+          "title": "Malamute",
+          "type": "array",
+          "default": []
+        },
+        "malinois": {
+          "$id": "#root/message/malinois",
+          "title": "Malinois",
+          "type": "array",
+          "default": []
+        },
+        "maltese": {
+          "$id": "#root/message/maltese",
+          "title": "Maltese",
+          "type": "array",
+          "default": []
+        },
+        "mastiff": {
+          "$id": "#root/message/mastiff",
+          "title": "Mastiff",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/mastiff/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "mexicanhairless": {
+          "$id": "#root/message/mexicanhairless",
+          "title": "Mexicanhairless",
+          "type": "array",
+          "default": []
+        },
+        "mix": {
+          "$id": "#root/message/mix",
+          "title": "Mix",
+          "type": "array",
+          "default": []
+        },
+        "mountain": {
+          "$id": "#root/message/mountain",
+          "title": "Mountain",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/mountain/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "mudhol": {
+          "$id": "#root/message/mudhol",
+          "title": "Mudhol",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/mudhol/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "newfoundland": {
+          "$id": "#root/message/newfoundland",
+          "title": "Newfoundland",
+          "type": "array",
+          "default": []
+        },
+        "otterhound": {
+          "$id": "#root/message/otterhound",
+          "title": "Otterhound",
+          "type": "array",
+          "default": []
+        },
+        "ovcharka": {
+          "$id": "#root/message/ovcharka",
+          "title": "Ovcharka",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/ovcharka/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "papillon": {
+          "$id": "#root/message/papillon",
+          "title": "Papillon",
+          "type": "array",
+          "default": []
+        },
+        "pariah": {
+          "$id": "#root/message/pariah",
+          "title": "Pariah",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/pariah/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "pekinese": {
+          "$id": "#root/message/pekinese",
+          "title": "Pekinese",
+          "type": "array",
+          "default": []
+        },
+        "pembroke": {
+          "$id": "#root/message/pembroke",
+          "title": "Pembroke",
+          "type": "array",
+          "default": []
+        },
+        "pinscher": {
+          "$id": "#root/message/pinscher",
+          "title": "Pinscher",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/pinscher/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "pitbull": {
+          "$id": "#root/message/pitbull",
+          "title": "Pitbull",
+          "type": "array",
+          "default": []
+        },
+        "pointer": {
+          "$id": "#root/message/pointer",
+          "title": "Pointer",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/pointer/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "pomeranian": {
+          "$id": "#root/message/pomeranian",
+          "title": "Pomeranian",
+          "type": "array",
+          "default": []
+        },
+        "poodle": {
+          "$id": "#root/message/poodle",
+          "title": "Poodle",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/poodle/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "pug": {
+          "$id": "#root/message/pug",
+          "title": "Pug",
+          "type": "array",
+          "default": []
+        },
+        "puggle": {
+          "$id": "#root/message/puggle",
+          "title": "Puggle",
+          "type": "array",
+          "default": []
+        },
+        "pyrenees": {
+          "$id": "#root/message/pyrenees",
+          "title": "Pyrenees",
+          "type": "array",
+          "default": []
+        },
+        "rajapalayam": {
+          "$id": "#root/message/rajapalayam",
+          "title": "Rajapalayam",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/rajapalayam/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "redbone": {
+          "$id": "#root/message/redbone",
+          "title": "Redbone",
+          "type": "array",
+          "default": []
+        },
+        "retriever": {
+          "$id": "#root/message/retriever",
+          "title": "Retriever",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/retriever/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "ridgeback": {
+          "$id": "#root/message/ridgeback",
+          "title": "Ridgeback",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/ridgeback/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "rottweiler": {
+          "$id": "#root/message/rottweiler",
+          "title": "Rottweiler",
+          "type": "array",
+          "default": []
+        },
+        "saluki": {
+          "$id": "#root/message/saluki",
+          "title": "Saluki",
+          "type": "array",
+          "default": []
+        },
+        "samoyed": {
+          "$id": "#root/message/samoyed",
+          "title": "Samoyed",
+          "type": "array",
+          "default": []
+        },
+        "schipperke": {
+          "$id": "#root/message/schipperke",
+          "title": "Schipperke",
+          "type": "array",
+          "default": []
+        },
+        "schnauzer": {
+          "$id": "#root/message/schnauzer",
+          "title": "Schnauzer",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/schnauzer/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "segugio": {
+          "$id": "#root/message/segugio",
+          "title": "Segugio",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/segugio/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "setter": {
+          "$id": "#root/message/setter",
+          "title": "Setter",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/setter/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "sharpei": {
+          "$id": "#root/message/sharpei",
+          "title": "Sharpei",
+          "type": "array",
+          "default": []
+        },
+        "sheepdog": {
+          "$id": "#root/message/sheepdog",
+          "title": "Sheepdog",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/sheepdog/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "shiba": {
+          "$id": "#root/message/shiba",
+          "title": "Shiba",
+          "type": "array",
+          "default": []
+        },
+        "shihtzu": {
+          "$id": "#root/message/shihtzu",
+          "title": "Shihtzu",
+          "type": "array",
+          "default": []
+        },
+        "spaniel": {
+          "$id": "#root/message/spaniel",
+          "title": "Spaniel",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/spaniel/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "spitz": {
+          "$id": "#root/message/spitz",
+          "title": "Spitz",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/spitz/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "springer": {
+          "$id": "#root/message/springer",
+          "title": "Springer",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/springer/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "stbernard": {
+          "$id": "#root/message/stbernard",
+          "title": "Stbernard",
+          "type": "array",
+          "default": []
+        },
+        "terrier": {
+          "$id": "#root/message/terrier",
+          "title": "Terrier",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/terrier/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "tervuren": {
+          "$id": "#root/message/tervuren",
+          "title": "Tervuren",
+          "type": "array",
+          "default": []
+        },
+        "vizsla": {
+          "$id": "#root/message/vizsla",
+          "title": "Vizsla",
+          "type": "array",
+          "default": []
+        },
+        "waterdog": {
+          "$id": "#root/message/waterdog",
+          "title": "Waterdog",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/waterdog/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        },
+        "weimaraner": {
+          "$id": "#root/message/weimaraner",
+          "title": "Weimaraner",
+          "type": "array",
+          "default": []
+        },
+        "whippet": {
+          "$id": "#root/message/whippet",
+          "title": "Whippet",
+          "type": "array",
+          "default": []
+        },
+        "wolfhound": {
+          "$id": "#root/message/wolfhound",
+          "title": "Wolfhound",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/message/wolfhound/items",
+            "title": "Items",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        }
+      }
+    },
+    "status": {
+      "$id": "#root/status",
+      "title": "Status",
+      "type": "string",
+      "default": "",
+      "pattern": "^.*$"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+	"definitions": {},
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://example.com/object1725726654.json",
+	"title": "Root",
+	"type": "object",
+	"required": [
+		"message",
+		"status"
+	],
+	"properties": {
+		"message": {
+			"$id": "#root/message",
+			"title": "Message",
+			"type": "array",
+			"default": [],
+			"items":{
+				"$id": "#root/message/items",
+				"title": "Items",
+				"type": "string",
+				"default": "",
+				"pattern": "^.*$"
+			}
+		},
+		"status": {
+			"$id": "#root/status",
+			"title": "Status",
+			"type": "string",
+			"default": "",
+			"pattern": "^.*$"
+		}
+	}
+}
